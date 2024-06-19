@@ -1,0 +1,20 @@
+footer {
+    div {
+        nav {
+            ul {
+                color: map-get($paleta-colores, color-enlace);
+                font-family: $general-font;
+                margin: 10px 0px 10px 0px;
+                border: 1px solid black;
+                display: flex;
+                justify-content: center;
+                background-image: linear-gradient(to left, grey, black, grey);
+                transition: all 1000ms;
+
+                :hover {
+                    background-image: linear-gradient(to left, black, grey);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+header {
+    div {
+        nav {
+            ul {
+                display: flex;
+                list-style-type: none;
+                background-color: map-get($paleta-colores, color-fondo);
+                font-family: $general-font;
+                justify-content: end;
+                margin: 10px 0px 10px 0px;
+                border: 1px solid black;
+            }
+        }
+    }
+}

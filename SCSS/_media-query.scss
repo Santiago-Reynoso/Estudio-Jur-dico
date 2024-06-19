@@ -1,0 +1,41 @@
+@media (max-width:450px) {
+    header {
+        font-size: small;
+    }
+
+    main {
+        font-size: 15px;
+    }
+
+    footer {
+        font-size: small;
+    }
+}
+
+@media (min-width: 451px) and (max-width:600px) {
+    header {
+        font-size: medium;
+    }
+
+    main {
+        font-size: 15px;
+    }
+
+    footer {
+        font-size: medium;
+    }
+}
+
+@media (min-width: 601px) {
+    header {
+        font-size: large;
+    }
+
+    main {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: large;
+    }
+}

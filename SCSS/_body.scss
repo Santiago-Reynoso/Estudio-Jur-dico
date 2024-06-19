@@ -1,0 +1,16 @@
+body {
+    background-color: map-get($paleta-colores, color-fondo);
+
+    h1 {
+        font-family: $general-font;
+        font-size: large;
+        background-color: map-get($paleta-colores, color-fondo-parrafo);
+        color: map-get($paleta-colores, color-titulo);
+        text-align: center;
+    }
+
+    .bg-body-tertiary {
+        background-color: map-get($paleta-colores, color-fondo);
+        --bs-bg-opacity: 0
+    }
+}

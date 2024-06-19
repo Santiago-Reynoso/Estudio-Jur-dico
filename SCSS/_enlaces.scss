@@ -1,0 +1,9 @@
+.enlaces {
+    color: map-get($paleta-colores, color-enlace);
+    text-decoration: none;
+}
+
+.enlaces:hover {
+    color: map-get($paleta-colores, color-enlace-hover);
+    text-decoration: underline;
+}
