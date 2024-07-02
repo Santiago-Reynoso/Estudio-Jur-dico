@@ -9,9 +9,7 @@ footer {
                 display: flex;
                 justify-content: center;
                 background-image: linear-gradient(to left, grey, black, grey);
-                transition: all 1000ms;
-
-                :hover {
+                &:hover {
                     background-image: linear-gradient(to left, black, grey);
                 }
             }
