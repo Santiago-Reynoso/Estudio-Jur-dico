@@ -6,27 +6,28 @@
   display: flex;
   flex-wrap: wrap;
   color: black;
+  margin: 0px 10px 10px 10px;
 }
 
 body {
-  background-color: #C0C1A9;
+  background-color: #86A1BB;
 }
 body h1 {
   font-family: "coraje-el-perro-cobarde";
-  font-size: large;
-  background-color: black;
+  font-size: larger;
+  background-color: #366E7D;
   color: aliceblue;
   text-align: center;
 }
 body .bg-body-tertiary {
-  background-color: #C0C1A9;
+  background-color: #86A1BB;
   --bs-bg-opacity: 0 ;
 }
 
 header div nav ul {
   display: flex;
   list-style-type: none;
-  background-color: #C0C1A9;
+  background-color: #86A1BB;
   font-family: "coraje-el-perro-cobarde";
   justify-content: end;
   margin: 10px 0px 10px 0px;
@@ -34,17 +35,17 @@ header div nav ul {
 }
 
 main {
-  background-color: #C0C1A9;
+  background-color: #86A1BB;
 }
 main h2 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: medium;
+  font-size: large;
   text-decoration: underline;
   text-align: center;
 }
 main section p {
-  color: burlywood;
-  background-color: black;
+  color: rgb(233, 233, 233);
+  background-color: #366E7D;
   height: 50%;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -69,26 +70,26 @@ main img {
 }
 
 .enlaces {
-  color: brown;
+  color: rgb(112, 43, 43);
   text-decoration: none;
 }
 
 .enlaces:hover {
-  color: cadetblue;
+  color: rgb(38, 93, 95);
   text-decoration: underline;
 }
 
 footer div nav ul {
-  color: brown;
+  color: rgb(112, 43, 43);
   font-family: "coraje-el-perro-cobarde";
   margin: 10px 0px 10px 0px;
   border: 1px solid black;
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(to left, grey, black, grey);
+  background-image: linear-gradient(to left, grey, #366E7D, grey);
 }
 footer div nav ul:hover {
-  background-image: linear-gradient(to left, black, grey);
+  background-image: linear-gradient(to left, #366E7D, grey);
 }
 
 @media (max-width: 450px) {

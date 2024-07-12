@@ -3,7 +3,7 @@ body {
 
     h1 {
         font-family: $general-font;
-        font-size: large;
+        font-size: larger;
         background-color: map-get($paleta-colores, color-fondo-parrafo);
         color: map-get($paleta-colores, color-titulo);
         text-align: center;

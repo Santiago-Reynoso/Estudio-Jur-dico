@@ -8,9 +8,9 @@ footer {
                 border: 1px solid black;
                 display: flex;
                 justify-content: center;
-                background-image: linear-gradient(to left, grey, black, grey);
+                background-image: linear-gradient(to left, grey, #366E7D, grey);
                 &:hover {
-                    background-image: linear-gradient(to left, black, grey);
+                    background-image: linear-gradient(to left, #366E7D, grey,);
                 }
             }
         }
